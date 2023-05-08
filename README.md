@@ -1,39 +1,41 @@
-<h1 align="center">VILT stack template</h1>
+<h1>Setting up a VILT Stack</h1>
+<p>This README.md provides instructions for setting up a VILT (Vue, Inertia.js, Laravel, and Tailwind CSS) stack.</p>
 
-[//]: # (<p align="center">)
+<h2>Requirements</h2>
+<ul>
+  <li>Composer</li>
+  <li>Node.js</li>
+  <li>npm</li>
+</ul>
 
-[//]: # (    <!--- Badges --->)
+<h2>Installed Components</h2>
+<ul>
+  <li>Laravel 9</li>
+  <li>Vue and Vite</li>
+  <li>Inertia.js</li>
+  <li>"Hello World" Page</li>
+  <li>Ziggy to handle route names</li>
+  <li>Tailwind CSS</li>
+  <li>tailwind.config.js and resources/css/app.css</li>
+  <li>Tailwind Forms plugin</li>
+  <li>eslint</li>
+  <li>.eslintrc.js configuration</li>
+  <li>Laravel debug bar</li>
+  <li>Laravel ide-helper</li>
+  <li>Inertia middleware</li>
+</ul>
 
-[//]: # (    <a href="https://github.com/cyficode/your-project-name/blob/main/LICENSE"><img src="https://img.shields.io/github/license/cyficode/your-project-name" alt="License"></a>)
+<h2>Usage</h2>
+<p>To use this VILT stack, you will need:</p>
+<ul>
+  <li>A web development environment to host the project</li>
+  <li>To run and configure any database migrations</li>
+  <li>To generate a unique key for the app by running <code>php artisan key:generate</code></li>
+</ul>
+<p>After completing these steps, you can start developing your VILT stack application.</p>
 
-[//]: # (    <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>)
+<h2>Contributor</h2>
+<p>Cyfi (<a href="https://github.com/cyficode">https://github.com/cyficode</a>)</p>
 
-[//]: # (    <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>)
-
-[//]: # (    <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>)
-
-[//]: # (</p>)
-
-## Installed Components
-
-This article details setting up a VILT stack:
-
-- Prefer installing in bash shell, so run "bash" from terminal and change to directory ~/html.
-- Install a Larave 9 project (change name)
-  composer create-project laravel/laravel sandbox.test 9.* --prefer-dist
-
-...
-
-## Usage
-
-To use this project, you will need a web development environment to host the project. You will need to run and configure any database migrations. You will need to generate a unique key for the app.
-
-...
-
-## Contributors
-
-- [Cyfi](https://github.com/cyficode)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/cyficode/your-project-name/blob/main/LICENSE) file for details.
+<h2>License</h2>
+<p>This project is licensed under the MIT License. The MIT License is a permissive free software license that allows you to use, copy, modify, merge, publish, distribute, and sublicense this software for any purpose, subject to certain conditions. You can read more about the MIT License and its terms in the <code>LICENSE.md</code> file.</p>
